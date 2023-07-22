@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Person counter app</title>
+    <style>
+        div{
+            background-image: linear-gradient(to top left,blue, black);
+            margin-top: 90px;
+            margin-left: 600px;
+            width: 500px;
+            color: aliceblue;
+            border: none;
+            border-radius:7px;
+            padding: 10px;
+        }
+        .plusOne{
+            background-image: linear-gradient(to right bottom,red,orange);
+            color: white;
+            padding: 5px;
+            border: none;
+            border-radius: 7px;
+        }
+        .reset{
+            background-image: linear-gradient(to top right,blue,violet,red);
+            color: white;
+            border-radius: 7px;
+            padding: 5px;
+        }
+        p{
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <h1><b><i>This is a person counter app</i></b></h1>
+       <p id="personCount"></p>
+       <input type="button" value="Increment" class="plusOne" id="plusOne" >
+       <input type="button" value="Begin" class="reset" id="reset">
+    </div>
+<script src="passengerCounter.js"></script>
+</body>
+</html>
